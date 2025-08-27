@@ -32,9 +32,9 @@ def weatherreminder():
 
     subject = "Weather reminder"
     if need_umbrella:
-        body = f"Today in {city} the sky will be '{sky}' with temperatures of {temperature}°C. ¡Don't forget your umbrella! 🌂"
+        body = f"Today in {city} the sky will be '{sky}' with temperatures of {temperature}°C. ¡Don't forget your umbrella!"
     else:
-        body = f"Today in {city} the sky will be '{sky}' with temperatures of {temperature}°C. you will need an umbrella"
+        body = f"Today in {city} the sky will be '{sky}' with temperatures of {temperature}°C. you will not need an umbrella"
 
     msg = f"Subject: {subject}\n\n{body}\n\nGretings".encode("utf-8")
 
