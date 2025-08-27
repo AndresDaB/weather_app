@@ -8,5 +8,5 @@ bash
 git clone https://github.com/tuusuario/weather_app.git
 cd weather_app
 
-### Requisites
+### Important
 In the code you will see "YOUR API KEY FROM OPENWEATHER", "YOUR EMAIL", "YOUR PASSWORD" this means that you need to change this for your own data, so will have to create an OperWeather account an obtain your API KEY
